@@ -16,7 +16,8 @@
                 - <h1~h6 제목
                 - <div 블럭
                 - <p 문단
-                - <span 구간
+                - <span 인라인
+                - <label 인라인
                 - <ul~li
                 - <ol~li
                 -폼관련 태그 
