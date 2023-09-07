@@ -69,3 +69,6 @@
 
                 *데이터 삭제 DELETE
                 DELETE FROM `mysql`.`user` WHERE `user`. `id` =2 LIMIT=1;
+
+                *데이터베이스 삭제
+                DROP DATABASE `myshop`
