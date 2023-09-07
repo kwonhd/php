@@ -12,10 +12,15 @@
 </style>
     </head>
     <body>
+    <div class="panel panel-default">
+        <div class="panel-body">
         <?php
+        include('./module/navbar.php');
+        include('./module/pagehead.php');
         // http://127.0.0.1/myadmin/ root apmsetup
         // 데이터베이스생성
         // 데이터베이스 연결
+        function getData()
         $host = 'localhost';
         $user = 'root';
         $pass = 'apmsetup';
@@ -38,5 +43,10 @@
         print('</tr>');
         print('</table>');
         ?>
+        </div>
+    </div>
+    <?php
+    //include('./module/footer.php');
+    ?>
     </body>
 </html>
